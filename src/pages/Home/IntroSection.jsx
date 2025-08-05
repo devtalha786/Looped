@@ -7,7 +7,7 @@ const IntroSection = () => {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
                     {/* Content - First on mobile, second on desktop */}
-                    <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
+                    <div className="space-y-6 md:space-y-8 order-2 lg:order-2">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[86px] font-bold text-[#313832] leading-tight md:leading-[1.1] lg:leading-[85px]">
                             Be Curl,<br />
                             Calm, and<br />
@@ -24,7 +24,7 @@ const IntroSection = () => {
                     </div>
 
                     {/* Image - Second on mobile, first on desktop */}
-                    <div className="relative order-1 lg:order-2">
+                    <div className="relative order-1 lg:order-1">
                         <div className="bg-sage-green/20 rounded-xl md:rounded-2xl p-4 md:p-6 lg:p-8">
                             <img
                                 src={curlyHairPortrait}
