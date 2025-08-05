@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "useDefineForClassFields": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "jsx": "react-jsx",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",                             // 👈 REQUIRED for alias
+      "paths": {
+        "@/*": ["src/*"]                          // 👈 Your alias setup
+      }
+    },
+    "include": ["src"],                           // 👈 Include your source folder
+    "exclude": ["node_modules", "dist"]           // 👈 Optional but recommended
+  }
+  
